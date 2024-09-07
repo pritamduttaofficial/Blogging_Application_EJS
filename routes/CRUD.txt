@@ -1,0 +1,9 @@
+-> Handling CRUD operations using async-await in JavaScript provides several benefits:
+
+    1. Non-blocking Execution: Asynchronous operations like database queries or API requests are non-blocking, meaning other code can continue to execute while waiting for these operations to complete. This allows for better utilization of system resources and improves the overall responsiveness of your application.
+
+    2. Simplified Error Handling: Using async-await simplifies error handling by allowing you to use try-catch blocks around asynchronous operations. This makes it easier to handle errors in a centralized manner, improving code readability and maintainability.
+
+    3. Sequential Code Execution: Async-await allows you to write asynchronous code that looks and behaves like synchronous code, making it easier to understand and reason about. This sequential style of coding can be particularly helpful when dealing with complex logic or dependencies between asynchronous operations.
+
+    4. Avoiding Callback Hell: Async-await helps avoid the "callback hell" problem, which can occur when dealing with multiple nested callbacks in asynchronous code. By using async-await, you can write asynchronous code in a more linear and readable fashion, without deeply nested callback functions.
